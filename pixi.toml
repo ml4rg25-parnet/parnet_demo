@@ -60,8 +60,10 @@ pyfaidx = ">=0.8.1.4,<0.9"
 captum = ">=0.7.0,<0.8"
 tqdm = ">=4.67.1,<5"
 libopenblas = ">=0.3.29,<0.4"
+umap-learn = ">=0.5.7,<0.6"
 
 [pypi-dependencies]
+jax = "==0.3.2"
 protobuf = "==4.25.8"
 tangermeme = { git = "git+https://github.com/jmschrei/tangermeme.git", rev = "main" }
 

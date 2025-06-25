@@ -188,6 +188,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libgoogle-cloud-2.36.0-hc4361e1_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libgoogle-cloud-storage-2.36.0-h0121fbd_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libgrpc-1.71.0-h8e591d7_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/libhwloc-2.11.2-default_h0d58e46_1001.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libiconv-1.18-h4ce23a2_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/libjpeg-turbo-3.1.0-hb9d3cd8_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/liblapack-3.9.0-31_h7ac8fdf_openblas.conda
@@ -303,6 +304,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pydantic-core-2.33.2-py310hbcd0ec0_0.conda
       - conda: https://conda.anaconda.org/bioconda/noarch/pyfaidx-0.8.1.4-pyhdfd78af_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/noarch/pygments-2.19.1-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/pynndescent-0.5.13-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pyparsing-3.2.3-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/bioconda/linux-64/pysam-0.23.3-py310h64e62c9_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pyside6-6.9.1-py310h21765ff_0.conda
@@ -358,6 +360,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/stopit-1.1.2-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/sympy-1.14.0-pyh2585a3b_105.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/tabulate-0.9.0-pyhd8ed1ab_2.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/tbb-2022.1.0-h4ce085d_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/termcolor-3.1.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/threadpoolctl-3.6.0-pyhecae5ae_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/thrift-0.20.0-py310hf71b8c6_1.conda
@@ -383,6 +386,7 @@ environments:
       - conda: https://conda.anaconda.org/bioconda/linux-64/ucsc-bedgraphtobigwig-481-hdc0a859_0.tar.bz2
       - conda: https://conda.anaconda.org/bioconda/linux-64/ucsc-bigwigtowig-469-h664eb37_1.tar.bz2
       - conda: https://conda.anaconda.org/bioconda/linux-64/ucsc-wigtobigwig-482-hdc0a859_0.tar.bz2
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/umap-learn-0.5.7-py310hff52083_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/unicodedata2-16.0.0-py310ha75aee5_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/urllib3-2.4.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/userpath-1.9.2-pyhd8ed1ab_0.conda
@@ -425,7 +429,10 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zlib-1.3.1-hb9d3cd8_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zstandard-0.23.0-py310ha75aee5_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zstd-1.5.7-hb8e6e7a_2.conda
+      - pypi: https://files.pythonhosted.org/packages/87/04/9d75e1d3bb4ab8ec67ff10919476ccdee06c098bcfcf3a352da5f985171d/absl_py-2.3.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/4f/5d/93932a20503f47955607c8be197bc887c44ffcb28e2f58daaa0f35352e6b/jax-0.3.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/93/84/648dc9326dbb31d2dbcbe30d089f2f126a274f8e0b8a539818b9d1bd6f55/memelite-0.2.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/23/cd/066e86230ae37ed0be70aae89aabf03ca8d9f39c8aea0dec8029455b5540/opt_einsum-3.4.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d6/c6/c9deaa6e789b6fc41b88ccbdfe7a42d2b82663248b715f55aa77fbc00724/protobuf-4.25.8-cp37-abi3-manylinux2014_x86_64.whl
       - pypi: git+https://github.com/jmschrei/tangermeme.git?rev=main#0b9770f7608c2b0059bb4fb1b50305412e4f33f8
   parnet-demo:
@@ -791,6 +798,7 @@ environments:
       - conda: https://conda.anaconda.org/bioconda/noarch/pyfaidx-0.8.1.4-pyhdfd78af_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/noarch/pygments-2.19.1-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pymdown-extensions-10.15-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/pynndescent-0.5.13-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pyparsing-3.2.3-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pyright-1.1.402-py310ha75aee5_0.conda
       - conda: https://conda.anaconda.org/bioconda/linux-64/pysam-0.23.3-py310h64e62c9_0.tar.bz2
@@ -889,6 +897,7 @@ environments:
       - conda: https://conda.anaconda.org/bioconda/linux-64/ucsc-bigwigtowig-469-h664eb37_1.tar.bz2
       - conda: https://conda.anaconda.org/bioconda/linux-64/ucsc-wigtobigwig-482-hdc0a859_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/ukkonen-1.0.1-py310h3788b33_5.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/umap-learn-0.5.7-py310hff52083_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/unicodedata2-16.0.0-py310ha75aee5_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/uri-template-1.3.0-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/urllib3-2.4.0-pyhd8ed1ab_0.conda
@@ -946,6 +955,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/44/e1/e7c830c1a29abd13f0e7e861c8db57a67db5cb8a1edc6b9d9cd44c26a1e5/grpcio-1.73.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/b1/45/e1a754dc7cd465ba35e438e28557119221ac89b20aaebef48282654e3dc7/h5py-3.14.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: git+https://github.com/igvteam/igv-notebook.git?rev=2995132#299513203411be7b6a7c079b8161bcd0b67cb4f5
+      - pypi: https://files.pythonhosted.org/packages/4f/5d/93932a20503f47955607c8be197bc887c44ffcb28e2f58daaa0f35352e6b/jax-0.3.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/95/e6/4179c461a5fc43e3736880f64dbdc9b1a5349649f0ae32ded927c0e3a227/keras-3.10.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/1d/fc/716c1e62e512ef1c160e7984a73a5fc7df45166f2ff3f254e71c58076f7c/libclang-18.1.1-py2.py3-none-manylinux2010_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/93/84/648dc9326dbb31d2dbcbe30d089f2f126a274f8e0b8a539818b9d1bd6f55/memelite-0.2.0-py3-none-any.whl
@@ -953,7 +963,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/b2/bc/465daf1de06409cdd4532082806770ee0d8d7df434da79c76564d0f69741/namex-0.1.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/23/cd/066e86230ae37ed0be70aae89aabf03ca8d9f39c8aea0dec8029455b5540/opt_einsum-3.4.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/fb/b0/b3c239aa98bc3250a4b644c7fc21709cbbd28d10611368b32ac909834f84/optree-0.16.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-      - pypi: git+https://github.com/ml4rg25-parnet/parnet.git?rev=develop#95b51cd2fcbe357df10dfb61a6b3dac5a07013a8
+      - pypi: git+https://github.com/ml4rg25-parnet/parnet.git?rev=develop#4715a8ee1597f6b1e17e81bd066313800fec2b41
       - pypi: https://files.pythonhosted.org/packages/d6/c6/c9deaa6e789b6fc41b88ccbdfe7a42d2b82663248b715f55aa77fbc00724/protobuf-4.25.8-cp37-abi3-manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/d8/d7/54ca294b2ddabe547747edbd94dd1c71cfb1e14c144466fb7fa18ef21826/sequence_models-1.8.0-py3-none-any.whl
       - pypi: git+https://github.com/jmschrei/tangermeme.git?rev=main#0b9770f7608c2b0059bb4fb1b50305412e4f33f8
@@ -1328,6 +1338,7 @@ environments:
       - conda: https://conda.anaconda.org/bioconda/noarch/pyfaidx-0.8.1.4-pyhdfd78af_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/noarch/pygments-2.19.1-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pymdown-extensions-10.15-pyhd8ed1ab_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/pynndescent-0.5.13-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pyparsing-3.2.3-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pyright-1.1.402-py310ha75aee5_0.conda
       - conda: https://conda.anaconda.org/bioconda/linux-64/pysam-0.23.3-py310h64e62c9_0.tar.bz2
@@ -1427,6 +1438,7 @@ environments:
       - conda: https://conda.anaconda.org/bioconda/linux-64/ucsc-bigwigtowig-469-h664eb37_1.tar.bz2
       - conda: https://conda.anaconda.org/bioconda/linux-64/ucsc-wigtobigwig-482-hdc0a859_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/ukkonen-1.0.1-py310h3788b33_5.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/umap-learn-0.5.7-py310hff52083_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/unicodedata2-16.0.0-py310ha75aee5_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/uri-template-1.3.0-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/urllib3-2.4.0-pyhd8ed1ab_0.conda
@@ -1484,6 +1496,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/44/e1/e7c830c1a29abd13f0e7e861c8db57a67db5cb8a1edc6b9d9cd44c26a1e5/grpcio-1.73.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/b1/45/e1a754dc7cd465ba35e438e28557119221ac89b20aaebef48282654e3dc7/h5py-3.14.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: git+https://github.com/igvteam/igv-notebook.git?rev=2995132#299513203411be7b6a7c079b8161bcd0b67cb4f5
+      - pypi: https://files.pythonhosted.org/packages/4f/5d/93932a20503f47955607c8be197bc887c44ffcb28e2f58daaa0f35352e6b/jax-0.3.2.tar.gz
       - pypi: https://files.pythonhosted.org/packages/95/e6/4179c461a5fc43e3736880f64dbdc9b1a5349649f0ae32ded927c0e3a227/keras-3.10.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/1d/fc/716c1e62e512ef1c160e7984a73a5fc7df45166f2ff3f254e71c58076f7c/libclang-18.1.1-py2.py3-none-manylinux2010_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/93/84/648dc9326dbb31d2dbcbe30d089f2f126a274f8e0b8a539818b9d1bd6f55/memelite-0.2.0-py3-none-any.whl
@@ -1503,7 +1516,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/1e/07/bf730d44c2fe1b676ad9cc2be5f5f861eb5d153fb6951987a2d6a96379a9/nvidia_nvjitlink_cu12-12.3.101-py3-none-manylinux1_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/23/cd/066e86230ae37ed0be70aae89aabf03ca8d9f39c8aea0dec8029455b5540/opt_einsum-3.4.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/fb/b0/b3c239aa98bc3250a4b644c7fc21709cbbd28d10611368b32ac909834f84/optree-0.16.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
-      - pypi: git+https://github.com/ml4rg25-parnet/parnet.git?rev=develop#95b51cd2fcbe357df10dfb61a6b3dac5a07013a8
+      - pypi: git+https://github.com/ml4rg25-parnet/parnet.git?rev=develop#4715a8ee1597f6b1e17e81bd066313800fec2b41
       - pypi: https://files.pythonhosted.org/packages/d6/c6/c9deaa6e789b6fc41b88ccbdfe7a42d2b82663248b715f55aa77fbc00724/protobuf-4.25.8-cp37-abi3-manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/d8/d7/54ca294b2ddabe547747edbd94dd1c71cfb1e14c144466fb7fa18ef21826/sequence_models-1.8.0-py3-none-any.whl
       - pypi: git+https://github.com/jmschrei/tangermeme.git?rev=main#0b9770f7608c2b0059bb4fb1b50305412e4f33f8
@@ -3837,6 +3850,26 @@ packages:
   - pkg:pypi/jaraco-functools?source=hash-mapping
   size: 15545
   timestamp: 1733746481844
+- pypi: https://files.pythonhosted.org/packages/4f/5d/93932a20503f47955607c8be197bc887c44ffcb28e2f58daaa0f35352e6b/jax-0.3.2.tar.gz
+  name: jax
+  version: 0.3.2
+  sha256: 136a6cf6bf0ddf834e5e6c49f69ca4401425654512ab2b66144137dc82967d40
+  requires_dist:
+  - absl-py
+  - numpy>=1.19
+  - opt-einsum
+  - scipy>=1.2.1
+  - typing-extensions
+  - jaxlib==0.3.0 ; extra == 'ci'
+  - jaxlib==0.3.2 ; extra == 'cpu'
+  - jaxlib==0.3.2+cuda11.cudnn82 ; extra == 'cuda'
+  - jaxlib==0.3.2+cuda11.cudnn805 ; extra == 'cuda11-cudnn805'
+  - jaxlib==0.3.2+cuda11.cudnn82 ; extra == 'cuda11-cudnn82'
+  - jaxlib==0.3.0 ; extra == 'minimum-jaxlib'
+  - jaxlib==0.3.2 ; extra == 'tpu'
+  - libtpu-nightly==0.1.dev20220315 ; extra == 'tpu'
+  - requests ; extra == 'tpu'
+  requires_python: '>=3.7'
 - conda: https://conda.anaconda.org/conda-forge/noarch/jaxtyping-0.3.2-pyhd8ed1ab_0.conda
   sha256: c8f51056484f23a8a2a47540155095d099983ff8bc03a9b064effa9c8157cf5c
   md5: 4a3e5a04f0d9ee0d00a1cdd686e5c60f
@@ -6919,7 +6952,7 @@ packages:
   - pkg:pypi/papermill?source=hash-mapping
   size: 38361
   timestamp: 1749776240262
-- pypi: git+https://github.com/ml4rg25-parnet/parnet.git?rev=develop#95b51cd2fcbe357df10dfb61a6b3dac5a07013a8
+- pypi: git+https://github.com/ml4rg25-parnet/parnet.git?rev=develop#4715a8ee1597f6b1e17e81bd066313800fec2b41
   name: parnet
   version: 0.0.1
   requires_dist:
@@ -7529,6 +7562,23 @@ packages:
   - pkg:pypi/pymdown-extensions?source=hash-mapping
   size: 170879
   timestamp: 1745885522295
+- conda: https://conda.anaconda.org/conda-forge/noarch/pynndescent-0.5.13-pyhd8ed1ab_1.conda
+  sha256: fd7f81cfed1a04883261e2ebd73677066f5040c4ed7984e870c9c931069f9398
+  md5: 87b563f2388f452cedb6a878b738c7dc
+  depends:
+  - llvmlite >=0.30
+  - numba >=0.46
+  - numpy >=1.13
+  - python >=3.9
+  - scikit-learn >=0.19
+  - scipy >=1.0
+  - setuptools
+  license: BSD-2-Clause
+  license_family: BSD
+  purls:
+  - pkg:pypi/pynndescent?source=hash-mapping
+  size: 49630
+  timestamp: 1734193646381
 - conda: https://conda.anaconda.org/conda-forge/noarch/pyparsing-3.2.3-pyhd8ed1ab_1.conda
   sha256: b92afb79b52fcf395fd220b29e0dd3297610f2059afac45298d44e00fcbf23b6
   md5: 513d3c262ee49b54a8fec85c5bc99764
@@ -8701,6 +8751,19 @@ packages:
   purls: []
   size: 175954
   timestamp: 1732982638805
+- conda: https://conda.anaconda.org/conda-forge/linux-64/tbb-2022.1.0-h4ce085d_0.conda
+  sha256: b2819dd77faee0ea1f14774b603db33da44c14f7662982d4da4bbe76ac8a8976
+  md5: f0afd0c7509f6c1b8d77ee64d7ba64b8
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - libgcc >=13
+  - libhwloc >=2.11.2,<2.11.3.0a0
+  - libstdcxx >=13
+  license: Apache-2.0
+  license_family: APACHE
+  purls: []
+  size: 179639
+  timestamp: 1743578685131
 - conda: https://conda.anaconda.org/conda-forge/noarch/tenacity-9.1.2-pyhd8ed1ab_0.conda
   sha256: fd9ab8829947a6a405d1204904776a3b206323d78b29d99ae8b60532c43d6844
   md5: 5d99943f2ae3cc69e1ada12ce9d4d701
@@ -9183,6 +9246,26 @@ packages:
   - pkg:pypi/ukkonen?source=hash-mapping
   size: 13756
   timestamp: 1725784148759
+- conda: https://conda.anaconda.org/conda-forge/linux-64/umap-learn-0.5.7-py310hff52083_1.conda
+  sha256: f1b2309f1c9a8bc675fda475ec94dda22dc4b3c6a6912d4a9291d44331b74aef
+  md5: 7ed9c1e9a3d50ccdcb78f9f4271ddaee
+  depends:
+  - numba >=0.51.2
+  - numpy >=1.17
+  - pynndescent >=0.5
+  - python >=3.10,<3.11.0a0
+  - python_abi 3.10.* *_cp310
+  - scikit-learn >=0.22
+  - scipy >=1.3.1
+  - setuptools
+  - tbb >=2019.0
+  - tqdm
+  license: BSD-2-Clause
+  license_family: BSD
+  purls:
+  - pkg:pypi/umap-learn?source=hash-mapping
+  size: 143928
+  timestamp: 1739236292113
 - conda: https://conda.anaconda.org/conda-forge/linux-64/unicodedata2-16.0.0-py310ha75aee5_0.conda
   sha256: 0468c864c60190fdb94b4705bca618e77589d5cb9fa096de47caccd1f22b0b54
   md5: 1d7a4b9202cdd10d56ecdd7f6c347190
@@ -9261,8 +9344,6 @@ packages:
   - perl >=5.32.1,<5.33.0a0 *_perl5
   - python >=3.10,<3.11.0a0
   - python_abi 3.10.* *_cp310
-  arch: x86_64
-  platform: linux
   license: custom
   purls: []
   size: 30187393
