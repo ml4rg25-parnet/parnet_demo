@@ -38,8 +38,7 @@ Then "activate" the environment: `pixi shell -e "parnet-demo"` or `pixi shell -e
 
 #### Installation using Conda
 
-
-NOTE: conda YAML files are generated using `pixi-pack` ; see the [Updating the environment](#updating-the-environment) section below.
+> [!NOTE]: conda YAML files are generated using `pixi-pack` ; see the [Updating the environment](#updating-the-environment) section below.
 
 #### Updating the environment
 
@@ -67,7 +66,7 @@ After any modification, proceed through the following steps (hereafter with the 
 
 1. manually update the `pyproject.toml` file with the newly added, version-resolved package.
 
-> [!NOTE] Keeping the `pyproject.toml` part is relevant for repositories that you plan to install as dependencies in other projects.
+> [!IMPORTANT] Keeping the `pyproject.toml` part is relevant for repositories that you plan to install as dependencies in other projects.
 > e.g. with the `parnet` repository, which is a dependency of the `parnet_demo` repository.
 > You can ignore this step if you are not planning to use the repository as an installable package.
 
@@ -78,10 +77,10 @@ After any modification, proceed through the following steps (hereafter with the 
   pixi-pack pack --environment parnet-demo --ignore-pypi-errors --platform linux-64 --output-file envs/pixi-pack.parnet-demo.linux-64.tar.gz ./pixi.toml
   ```
 
-  > [!WARNING] Unfortunately, some of the packages in the `pixi.toml` are not available on PyPI.
-  > You can bypass these by using the `--ignore-pypi-errors`.
-  > so you will need to manually install them in the conda environment, using `pip install git+https://github.com/<organization>/<repo>.git@<rev>`
-  > All the packages to install would be under the `[*.pypi-dependencies]` sections of the `pixi.toml` file.
+> [!WARNING] Unfortunately, some of the packages in the `pixi.toml` are not available on PyPI.
+> You can bypass these by using the `--ignore-pypi-errors`.
+> so you will need to manually install them in the conda environment, using `pip install git+https://github.com/<organization>/<repo>.git@<rev>`
+> All the packages to install would be under the `[*.pypi-dependencies]` sections of the `pixi.toml` file.
 
 3. Untar the archive:
 
